@@ -1,0 +1,92 @@
+#line_scanner{
+    animation: line_shake 1.5s ease-in-out alternate-reverse infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+    /*animation: line__y__1 1000ms 0ms ease-in-out forwards, line__y__2 1000ms 1000ms ease-in-out forwards, line__y__3 1000ms 2000ms ease-in-out forwards, line__y__4 1000ms 3000ms ease-in-out forwards, line__y__5 1000ms 4000ms linear forwards, line__y__6 1000ms 5000ms linear forwards, line__y__7 1000ms 6000ms linear forwards, line__y__8 1000ms 7000ms linear forwards, line__y__9 1000ms 8000ms linear forwards, line__y__10 1000ms 9000ms linear forwards;*/
+}
+
+#ring0{
+    animation: ring0_animation 10s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+}
+#ring1{
+    animation: ring1_animation 10s ease-in-out infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+}
+
+#ring2{
+    animation: ring2_animation 10s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+}
+
+#ring3{
+    animation: ring3_animation 10s alternate-reverse ease-in-out infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+}
+
+#ring1{
+    animation: ring1_animation 10s alternate-reverse ease-in-out infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+}
+
+@keyframes line_shake {
+    100% {
+        transform: translateY(-120px);
+    }
+}
+
+@keyframes ring0_animation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(-360deg);
+    }
+
+}
+@keyframes ring2_animation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+
+}
+
+@keyframes ring3_animation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(-180deg);
+    }
+
+}
+
+@keyframes ring1_animation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(720deg);
+    }
+
+}

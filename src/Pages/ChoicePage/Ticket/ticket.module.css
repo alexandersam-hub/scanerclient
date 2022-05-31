@@ -1,0 +1,155 @@
+.ticket{
+    padding: 20px 0;
+}
+.wrapper{
+
+    padding: 20px;
+    border: 2px solid #00F0FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 60px #00F0FF;
+    border-radius: 20px;
+
+    width: 50%;
+    margin: auto;
+    text-align: left;
+
+    background-color: #04092a;
+}
+.wrapper_settings{
+    margin: 20px 0;
+}
+.wrapper_check_setting{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.wrapper_check_setting span{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 4px;
+
+}
+.check_box{
+   display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 20px;
+    accent-color: #00F0FF;
+}
+
+.description{
+    padding: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #00F0FF;
+    text-align: left;
+}
+
+.title{
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: -20px -20px 10px -20px;
+    color: #00F0FF;
+    background-color: #01636a;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.title_field{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.part{
+    margin-bottom: 10px;
+}
+.list_field_teamname,
+.list_field{
+    width: 90%;
+    max-width: 210px;
+    margin: 0 auto 10px auto;
+}
+.list_field_teamname{
+    max-width: 400px;
+    text-align: center;
+}
+
+.btn_start{
+    display: block;
+    border:1px solid #0297a0;
+    background-color: #00F0FF;
+    border-radius: 20px;
+    padding:15px;
+    width: 60%;
+    margin:15px auto;
+    cursor: pointer;
+
+}
+.wrapper_input_box{
+    display: block;
+    text-align: center;
+
+}
+.btn_add_time{
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 27px;
+    background-color: #00F0FF;
+    text-align: center;
+    margin: 2px;
+    color: black;
+    vertical-align: top;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+
+    border: 2px solid #01cfdc;
+
+}
+
+.input_box{
+    width: 60%;
+    height: 30px;
+
+    background: #000000;
+    border: 2px solid #00F0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #00F0FF;
+}
+.td_value{
+    width: 100%;
+}
+.td_value input{
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .wrapper{
+        width: 90%;
+    }
+}

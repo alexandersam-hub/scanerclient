@@ -1,0 +1,156 @@
+
+.wrapper{
+   background-color: black;
+    height: 100vh;
+    background-size: auto 100vh;
+}
+
+.setting_logo{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.title{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    top: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #00F0FF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.finger{
+    position: absolute;
+    z-index:999;
+    width:30%;
+    max-width: 200px;
+    min-width: 92px;
+    overflow: auto;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.line{
+    z-index:1000;
+    position: absolute;
+    width: 22%;
+    max-width: 139px;
+    min-width: 120px;
+    overflow: auto;
+    margin: auto;
+
+    top: 120px; left: 0; bottom: 0; right: 0;
+}
+
+.ring0{
+    display: block;
+    width: 70%;
+    border: 0 solid;
+
+    border-radius: 100px;
+    max-width: 616px;
+    /*max-width: 318px;*/
+    min-width: 280px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.ring1{
+
+    width: 74%;
+    max-width: 642px;
+    min-width: 294px;
+    /*max-width: 318px;*/
+    /*min-width: 280px;*/
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.ring2{
+
+    width: 67%;
+    max-width: 550px;
+    min-width: 256px;
+    /*min-width: 200px;*/
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.ring3{
+
+    position: absolute;
+    width: 47%;
+    max-width: 301px;
+    min-width: 147px;
+    overflow: auto;
+    margin: auto;
+
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.ring4{
+
+    position: absolute;
+    width: 54%;
+    max-width: 370px;
+    min-width:185px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+.backImg{
+   display: block;
+    margin: auto;
+    height: 100vh;
+}
+.content{
+
+
+}
+
+
+
+
+.last_result{
+    position: relative;
+    width: 126px;
+    height: 50px;
+
+    top:-100px;
+    left: calc(50% - 63px);
+
+
+    background: #000000;
+    border: 2px solid #00F0FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    padding-top: 4px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #00F0FF;
+
+    cursor:pointer;
+}

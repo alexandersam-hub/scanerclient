@@ -1,0 +1,23 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  overflow-y: hidden;
+
+  background-color: black;
+
+}
+
+.wrapper{
+  background-image: url("./img/back_pattern.svg");
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  overflow-y: hidden;
+}
+.content{
+
+  min-height: 100vh ;
+
+}

@@ -1,0 +1,22 @@
+.wrapper{
+    text-align: center;
+    background-color: #000528;
+    height: 80px;
+
+}
+.record{
+    text-align: left;
+    position: relative;
+    top:-45px;
+    left: 20px;
+    width: 40px;
+
+}
+
+.logo{
+    padding-top: 13px;
+}
+
+.logo img{
+    width: 200px;
+}

@@ -1,0 +1,6 @@
+const dafaultData = {
+    colors:'{[{"id":"626945d1934997bdd8a1d4b0","colorNameRu":"Синий","color":"#0f68ff"},{"id":"626945e0934997bdd8a1d4b6","colorNameRu":"Красный","color":"#ff0000"},{"id":"626945eb934997bdd8a1d4b8","colorNameRu":"Желтый","color":"#fffc00"},{"id":"626945f7934997bdd8a1d4ba","colorNameRu":"Оранжевый","color":"#ff8a00"},{"id":"62694606934997bdd8a1d4bc","colorNameRu":"Зеленый","color":"#00ff47"}]}',
+    tickets:'[{"id":"62694494e5f36deb3f92d333","title":"Игра с номерами","countPeople":20,"countTeams":6,"teamsName":[],"teamsColor":[],"description":"","isColor":false,"isTeamName":false,"isTeamNumber":true},{"id":"626944bae5f36deb3f92d335","title":"Игра с цветными метками","countPeople":15,"countTeams":4,"teamsName":[],"teamsColor":["#ff0000","#ff8a00","#00ff47","#0f68ff"],"description":"","isColor":true,"isTeamName":false,"isTeamNumber":true},{"id":"62694667934997bdd8a1d4bf","title":"Игра по названиям","countPeople":15,"countTeams":7,"teamsName":["Красивые","Умные","Сильные","Храбрые","Старые","Молодые","Стильные"],"teamsColor":[],"description":"","isColor":false,"isTeamName":true,"isTeamNumber":true}]'
+}
+
+export default dafaultData
